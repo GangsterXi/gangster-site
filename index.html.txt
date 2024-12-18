@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Игровой Сайт</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Шапка сайта -->
+  <header class="header">
+    <div class="logo">
+      <h1>CS2 CyberFun</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Главная</a></li>
+        <li><a href="#games">Игры</a></li>
+        <li><a href="#about">О нас</a></li>
+        <li><a href="#contact">Контакты</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Главный контент -->
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h2>Добро пожаловать на наш сайт</h2>
+        <p>Лучшие онлайн игры для настоящих киберспортсменов</p>
+        <button class="cta-button">Играть сейчас</button>
+      </div>
+    </section>
+
+    <section id="games" class="games">
+      <h2>Популярные игры</h2>
+      <div class="game-list">
+        <div class="game-item">Игра 1</div>
+        <div class="game-item">Игра 2</div>
+        <div class="game-item">Игра 3</div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <h2>О нас</h2>
+      <p>Мы — команда, которая создает уникальные игровые решения для киберспортсменов.</p>
+    </section>
+  </main>
+
+  <!-- Подвал -->
+  <footer>
+    <p>&copy; 2024 CS2 CyberFun</p>
+  </footer>
+</body>
+</html>

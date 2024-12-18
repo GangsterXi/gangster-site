@@ -1,0 +1,4 @@
+// Пример простого JavaScript для кнопки
+document.querySelector('.cta-button').addEventListener('click', function() {
+  alert('Вы нажали на кнопку "Играть сейчас"!');
+});
